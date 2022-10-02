@@ -8,9 +8,6 @@ Those numbers for which this process ends in 1 are happy.
 Return true if n is a happy number, and false if not.
 */
 
-
-
-
 /**
  * Slow Fast
  * Time O(log(N)) | Space O(1)
@@ -37,6 +34,14 @@ var getNext = (n, sum = 0) => {
     return sum
 }
 console.log(isHappy(32)) // returns true
+/* Example 
+Input: n = 32
+Output: true
+Explanation:
+3*3 + 2*2 = 13
+1*1 + 3*3 = 10
+1*1 + 0*0 = 1 */  //ends in 1 are happy and will return true.
+
 console.log(isHappy(50)) // retuns false
 console.log(isHappy(99)) // retuns false
 console.log(isHappy(44)) // returns true
