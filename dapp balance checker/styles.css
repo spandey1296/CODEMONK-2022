@@ -1,0 +1,49 @@
+body{
+    max-width: 50vw;
+    margin: auto;
+    background-color: azure;
+    
+}
+#main{
+    width: 50vw;
+    height: 50vh;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+#input-value{
+  margin-right: 0;
+  border: none;
+  font-size: inherit;
+  transition: width 200ms;
+  padding-top: 7px;
+  padding-left: 5px;
+  padding-bottom: 7px;
+  width: 250px;
+  color: #aaa;
+  border-bottom: 1px solid #eee;
+  border-radius: 10px;
+  background-color: black;
+}
+  #input-value:focus{
+    width: 400px;
+}
+#btn{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+    margin: 10px; 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+p{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
