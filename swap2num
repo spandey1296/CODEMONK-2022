@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+      int a, b ;
+      printf("enter the 1st variable number:");
+      scanf("%d",&a );
+      printf(" enter the 2nd variable number: ");
+      scanf ("%d",&b) ;
+      a = a + b ;
+      b = a - b ;
+      a = b - a ;
+      printf(" value of a: %d, value of b: %d",a,b) ; 
+	  return 0;
+}
